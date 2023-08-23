@@ -176,10 +176,6 @@ legend('$\Delta G_{xx}$ (Eqs. 27-29)','$\Delta G_{yy}$ (Eqs. 27-29)', '$\Delta G
     'interpreter','latex','NumColumns',3,'FontSize',11,'Location','southoutside');
 legend box off;
 
-figuresize(18,12,'cm',0);
-print('Output/figure_strain_jump','-dpdf','-r300');
-print('Output/figure_strain_jump','-dmeta','-r300');
-
 
 
 
