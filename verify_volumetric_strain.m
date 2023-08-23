@@ -52,6 +52,3 @@ xlabel('$x$ (m)','Interpreter','latex'), ylabel('$y$ (m)','interpreter','latex')
 cbar.Label.String = '$(G_{xx}+G_{yy})/\pi$';
 cbar.Label.Interpreter = 'latex';
 set(gca,'FontSize',12)
-% figuresize(32,10,'cm',0);
-% print('Output/figure_volumetric_strain','-dpdf','-r300');
-% print('Output/figure_volumetric_strain','-dmeta','-r300');
